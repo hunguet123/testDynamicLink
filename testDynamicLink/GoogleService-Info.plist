@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>573964058711-3ered12ddn5hfgrcgl4p7gvb2ng5j4tn.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.573964058711-3ered12ddn5hfgrcgl4p7gvb2ng5j4tn</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC6Py9lKjAkwuO8W_bYLKCdCRlc8cZr8x0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>573964058711</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>hunguet.testDynamicLink</string>
+	<key>PROJECT_ID</key>
+	<string>testdynamiclink-a7e26</string>
+	<key>STORAGE_BUCKET</key>
+	<string>testdynamiclink-a7e26.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:573964058711:ios:e8be694f534dc2ca11a312</string>
+</dict>
+</plist>
