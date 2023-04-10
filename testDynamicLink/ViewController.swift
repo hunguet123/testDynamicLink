@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import FirebaseDynamicLinks
 
 class ViewController: UIViewController {
 
@@ -14,6 +15,16 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func didTapCreateLink(_ sender: Any) {
+        guard let link = URL(string: "https://hunguet.page.link/test-dynamic-link") else { return }
+        let dynamicLinksDomainURIPrefix = "https://hunguet.page.link"
+        let linkBuilder = DynamicLinkComponents(link: link, domainURIPrefix: dynamicLinksDomainURIPrefix)
+        linkBuilder?.iOSParameters = DynamicLinkIOSParameters(bundleID: "hunguet.testDynamicLink")
+        linkBuilder?.androidParameters = DynamicLinkAndroidParameters(packageName: "com.example.android")
 
+        guard let longDynamicLink = linkBuilder?.url else { return }
+        print("The long URL is: \(longDynamicLink)")
+    }
+    
 }
 

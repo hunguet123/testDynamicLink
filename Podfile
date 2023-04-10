@@ -14,6 +14,7 @@ pod 'FirebaseAnalytics'
 # For example, to use Firebase Authentication and Cloud Firestore
 pod 'FirebaseAuth'
 pod 'FirebaseFirestore'
+pod 'Firebase/DynamicLinks'
 
   # Pods for testDynamicLink
 
